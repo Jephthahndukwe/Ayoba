@@ -2,7 +2,6 @@ import ayoba from '../assets/ayoba.png'
 import logo from '../assets/ADANIAN LOGO 1.png'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types';
-import { FaBars } from 'react-icons/fa';
 
 const Navbar = ({ setShowSponsorBox, setShowExhibitorBox }) => {
   const handleSponsorClick = () => {
