@@ -18,12 +18,12 @@ const handleExhibitorClick = () => {
     <div className='px-[60px] py-[10px]'>
         <div className='lg:flex xs:hidden justify-between'>
            <div className='flex justify-between items-center gap-[10rem]'>
-           <div>
+           <Link to='https://www.ayoba.me/web/home?lang=en' target='_blank'>
                 <img src={ayoba}/>
-            </div>
-            <div>
+            </Link>
+            <Link to='hhtps://www.adanianlabs.io/' target='_blank'>
                 <img src={logo} className='lg:w-[164.27px] h-[56px]' />
-            </div>
+            </Link>
            </div>
            <div className='flex gap-[2rem] items-center'>
                 <div className='bg-[#0161A2] lg:w-[150px] h-[45px] rounded-[8px] p-[10px] flex justify-center text-[#fff] text-[16px] font-[400] leading-[22px]' onClick={handleSponsorClick}><Link to='#sponsorSection'>Sponsorship</Link></div>

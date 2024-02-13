@@ -21,6 +21,23 @@ const Sponsors = ({ showSponsorBox, showExhibitorBox, setShowSponsorBox, setShow
         exhibitorRef.current.scrollIntoView({ behavior: 'smooth' });    };
 
 
+
+    const handleClick = () => {
+        // Recipient email address
+        const emailAddress = 'nigeria@adanianlabs.io';
+        // Subject of the email
+        const subject = encodeURIComponent('Adanian Lab Pricing PLan');
+        // Body of the email
+        const body = encodeURIComponent(`Hello, I would like to sign up for the {} sponsorship package for {insert your company name}. Could you please send me the payment invoice for this package?`);
+    
+        // Construct the URL for Gmail compose window
+        const gmailUrl = `https://mail.google.com/mail/?view=cm&to=${emailAddress}&su=${subject}&body=${body}`;
+    
+        // Open Gmail with the pre-filled email
+        window.open(gmailUrl);
+    };
+
+
   return (
     <div>
         <div className="flex">
@@ -43,7 +60,7 @@ const Sponsors = ({ showSponsorBox, showExhibitorBox, setShowSponsorBox, setShow
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>Dedicated Exhibition Space with <br className='lg:block xs:hidden'/> Enhanced Branding</span></h3>
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>Featured in Press Releases</span></h3>
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>Logo placement on event materials</span></h3>
-                    <Link to='/'><p className='border-[1px] border-solid border-[#494B4A] text-[18px] text-[#494B4A] font-[500] text-center p-[8px] rounded-[4px] mt-5'>Order now</p></Link>
+                    <Link to='/' onClick={handleClick}><p className='border-[1px] border-solid border-[#494B4A] text-[18px] text-[#494B4A] font-[500] text-center p-[8px] rounded-[4px] mt-5'>Order now</p></Link>
                 </div>
                 <div className="lg:w-[390px] lg:h-[720px] bg-[#FFF] shadow-2xl p-[15px] lg:mt-0 xs:mt-[2rem]">
                     <h2 className="text-[#FCC200] text-[25px] font-[700]">Gold | <span className="text-[29px] font-[700]">₦7.5m</span></h2>
@@ -57,7 +74,7 @@ const Sponsors = ({ showSponsorBox, showExhibitorBox, setShowSponsorBox, setShow
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>Featured in Press Releases</span></h3>
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>Featured in Press Releases</span></h3>
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>Logo placement on event materials</span></h3>
-                    <Link to='/'><p className='bg-[#494B4A] text-[18px] text-[#fff] font-[500] text-center p-[8px] rounded-[4px] mt-5'>Order now</p></Link>
+                    <Link to='/' onClick={handleClick}><p className='bg-[#494B4A] text-[18px] text-[#fff] font-[500] text-center p-[8px] rounded-[4px] mt-5'>Order now</p></Link>
                 </div>
                 <div className="lg:w-[390px] bg-[#FFF] shadow-2xl p-[15px] lg:mt-0 xs:mt-[2rem]">
                     <h2 className="text-[#FCC200] text-[25px] font-[700]">Platinum | <span className="text-[29px] font-[700]">₦15m</span></h2>
@@ -73,7 +90,7 @@ const Sponsors = ({ showSponsorBox, showExhibitorBox, setShowSponsorBox, setShow
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>Featured Interviews with Sponsor <br className='lg:block xs:hidden'/> Representative</span></h3>
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>Priority Access to SMEs for <br className='lg:block xs:hidden'/> Collaboration</span></h3>
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>Logo placement on event materials</span></h3>
-                    <Link to='/'><p className='border-[1px] border-solid border-[#494B4A] text-[18px] text-[#494B4A] font-[500] text-center p-[8px] rounded-[4px] mt-5'>Order now</p></Link>
+                    <Link to='/' onClick={handleClick}><p className='border-[1px] border-solid border-[#494B4A] text-[18px] text-[#494B4A] font-[500] text-center p-[8px] rounded-[4px] mt-5'>Order now</p></Link>
                 </div>
             </div>
         </div>
@@ -90,7 +107,7 @@ const Sponsors = ({ showSponsorBox, showExhibitorBox, setShowSponsorBox, setShow
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>Full Access to Event</span></h3>
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>30 Seconds Showcase Video Reel</span></h3>
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>15 Professional Photos</span></h3>
-                    <Link to='/'><p className='border-[1px] border-solid border-[#494B4A] text-[18px] text-[#494B4A] font-[500] text-center p-[8px] rounded-[4px] mt-5'>Order now</p></Link>
+                    <Link to='/' onClick={handleClick}><p className='border-[1px] border-solid border-[#494B4A] text-[18px] text-[#494B4A] font-[500] text-center p-[8px] rounded-[4px] mt-5'>Order now</p></Link>
                 </div>
                 <div className="lg:w-[574px] lg:h-[600px] bg-[#FFF] shadow-2xl p-[15px] lg:mt-0 xs:mt-[2rem]">
                     <h2 className="text-[#FCC200] text-[25px] font-[700]">Gold | <span className="text-[29px] font-[700]">₦7.5m</span></h2>
@@ -103,7 +120,7 @@ const Sponsors = ({ showSponsorBox, showExhibitorBox, setShowSponsorBox, setShow
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>60 Seconds Showcase Video Reel</span></h3>
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>25 Professional Photos</span></h3>
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>Access to VIP Dinner [Post Event]</span></h3>
-                    <Link to='/'><p className='bg-[#494B4A] text-[18px] text-[#fff] font-[500] text-center p-[8px] rounded-[4px] mt-5'>Order now</p></Link>
+                    <Link to='/' onClick={handleClick}><p className='bg-[#494B4A] text-[18px] text-[#fff] font-[500] text-center p-[8px] rounded-[4px] mt-5'>Order now</p></Link>
                 </div>
             </div>
         </div>
