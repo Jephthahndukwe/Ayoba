@@ -15,7 +15,7 @@ const handleExhibitorClick = () => {
 };
 
   return (
-    <div className='px-[60px] py-[10px]'>
+    <div className='px-[60px] py-[10px] font-nunito'>
         <div className='lg:flex xs:hidden justify-between'>
            <div className='flex justify-between items-center gap-[10rem]'>
            <Link to='https://www.ayoba.me/web/home?lang=en' target='_blank'>

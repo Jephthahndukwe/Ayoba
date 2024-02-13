@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className='bg-[#001F34] px-[70px] py-[120px]'>
+    <div className='bg-[#001F34] px-[70px] py-[120px] font-nunito'>
         <div className='lg:flex gap-[18rem] items-center'>
             <Link to='https://www.ayoba.me/web/home?lang=en' target='_blank'>
                 <img src={ayoba} className='w-[229px] h-[64px]' />

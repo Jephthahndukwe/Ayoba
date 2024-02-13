@@ -26,8 +26,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        roboto: ['Roboto'],
-        montserrat: ['Montserrat']
+        nunito: ['Nunito'],
       },
       colors: {
         navyBlue: "#001F3F",

@@ -19,14 +19,14 @@ const Homepage = () => {
              setShowSponsorBox={setShowSponsorBox}
              setShowExhibitorBox={setShowExhibitorBox}
         />
-        <div>
+        <div className="font-nunito">
             <div>
-                    <div className="lg:px-[60px] xs:px-[12px] mt-[5rem] lg:flex gap-[450px]">
+                    <div className="lg:px-[60px] xs:px-[12px] mt-[5rem] lg:flex gap-[370px]">
                         <div>
                             <img src={ayoba} className="lg:w-[400px] xs:w-[300px] lg:h-[122px] object-contain" />
-                            <h2 className="text-[#0061A1] lg:text-[25px] xs:text-[18.5px] tracking-[0.7px] font-[600]"><span className="text-[#FDB933]">SME</span> ACCELERATOR, Nigeria 2023</h2>
+                            <h2 className="text-[#0061A1] lg:text-[23px] xs:text-[18.5px] tracking-[0.7px] font-[600]"><span className="text-[#FDB933]">SME</span> ACCELERATOR, Nigeria 2023</h2>
                             <div className="flex gap-2 mt-[1rem] items-center">
-                                <span className="text-[#FDB933] lg:text-[30px] xs:text-[20px] font-[700]">Exhibition</span> 
+                                <span className="text-[#FDB933] lg:text-[27px] xs:text-[20px] font-[700]">Exhibition</span> 
                                 <div className="w-[2px] h-[25px] bg-[#494B4A]"/> 
                                 <span className="text-[#FDB933] lg:text-[30px] lg:text-[25px] xs:text-[20px] font-[700]">Graduation</span> 
                                 <div className="w-[2px] h-[25px] bg-[#494B4A]"/> 
@@ -37,7 +37,7 @@ const Homepage = () => {
                            <p className="lg:mt-[8rem] xs:mt-[3rem] relative"><Link to='/' className="bg-[#0161A2] lg:w-[400px] xs:w-[50px] text-[#fff] lg:text-[24px] xs:text-[14px] font-[400] h-[77px] rounded-[8px] lg:p-[20px] xs:p-[12px]">Download Concept Note</Link></p>
                         </div>
                         <div>
-                            <img src={woman} className="lg:absolute lg:mt-[-0.4rem] xs:mt-[5rem]" />
+                            <img src={woman} className="lg:absolute lg:mt-[-0.6rem] xs:mt-[5rem]" />
                         </div>
                     </div>
                     <div className="lg:mt-[-7.6rem]">

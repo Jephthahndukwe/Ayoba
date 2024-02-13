@@ -5,7 +5,7 @@ import group4 from '../assets/Group 4.png'
 
 const Gain = () => {
   return (
-    <div className="bg-[#0161A2] lg:px-[60px] xs:p-[15px] py-[40px]">
+    <div className="bg-[#0161A2] lg:px-[60px] xs:p-[15px] py-[40px] font-nunito">
         <h1 className="text-[#FDB933] text-[30px] font-[600] text-center mt-[3rem]">WHAT DO YOU GAIN?</h1>
         <div className='lg:flex gap-[13rem] items-center mt-[5rem]'>
             <div>

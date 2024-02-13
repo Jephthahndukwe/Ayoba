@@ -39,7 +39,7 @@ const Sponsors = ({ showSponsorBox, showExhibitorBox, setShowSponsorBox, setShow
 
 
   return (
-    <div>
+    <div className='font-nunito'>
         <div className="flex">
            <div className="bg-[#0161A2] lg:px-[50px] xs:px-[100px] lg:w-[680px] xs:w-[180px] h-[60px] pt-2 cursor-pointer flex justify-center" onClick={handleSponsorClick}>
                 <span className="text-center text-[#fff] text-[30px] font-[800]">SPONSORS</span>
