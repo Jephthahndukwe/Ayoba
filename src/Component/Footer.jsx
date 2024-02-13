@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className='bg-[#001F34] px-[60px] py-[70px]'>
-        <div className='lg:flex justify-between items-center'>
+    <div className='bg-[#001F34] px-[70px] py-[120px]'>
+        <div className='lg:flex gap-[18rem] items-center'>
             <Link to='https://www.ayoba.me/web/home?lang=en' target='_blank'>
-                <img src={ayoba} className='w-[200px] h-[64px]' />
+                <img src={ayoba} className='w-[229px] h-[64px]' />
             </Link>
-            <div className='flex text-[24px] gap-[1rem] text-[#fff] lg:mt-0 xs:mt-[5rem]'>
+            <div className='flex text-[32px] gap-[1.5rem] text-[#fff] lg:mt-0 xs:mt-[5rem]'>
                 <Link to='' target="_blank"><FaFacebook/></Link>
                 <Link to='https://www.instagram.com/adanianlabsng' target="_blank"><FaInstagram/></Link>
                 <Link to='https://twitter.com/adanianlabsng' target="_blank"><FaTwitter/></Link>
