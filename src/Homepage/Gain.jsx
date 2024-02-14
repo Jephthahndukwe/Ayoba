@@ -44,7 +44,7 @@ const Gain = () => {
             </div>
             <div className='lg:mt-0 xs:mt-[4rem]'>
                 <h2 className='text-[30px] text-[#fff] font-[500]'>Investment and fund-raising <b/> opportunities</h2>
-                   <p className='lg:w-[536px] text-[20px] mt-[1rem] text-[#fff] font-[400]'>Lorem ipsum dolor sit amet consectetur. Ac ipsum sit aenean ipsum arcu tempor commodo libero quis. Fames ullamcorper lectus scelerisque accumsan faucibus. Egestas dolor.</p>
+                   <p className='lg:w-[536px] text-[20px] mt-[1rem] text-[#fff] font-[400]'>Empower Your Financial Future: Explore Investment and Fundraising Opportunities on Our</p>
             </div>
         </div>
     </div>

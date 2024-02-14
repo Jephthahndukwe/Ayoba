@@ -27,7 +27,7 @@ const handleExhibitorClick = () => {
            </div>
            <div className='flex gap-[2rem] items-center'>
                 <div className='bg-[#0161A2] lg:w-[150px] h-[45px] rounded-[8px] p-[10px] flex justify-center text-[#fff] text-[16px] font-[400] leading-[22px]' onClick={handleSponsorClick}><Link to='#sponsorSection'>Sponsorship</Link></div>
-                <div className='border-[1px] border-solid border-[#0161A2] lg:w-[150px] h-[45px] rounded-[8px] p-[10px] flex justify-center text-[#0161A2] text-[16px] font-[400] leading-[22px]' onClick={handleExhibitorClick}><Link to='#exhibitorSection'>Exhibitor</Link></div>
+                <div className='border-[1px] border-solid border-[#0161A2] lg:w-[150px] h-[45px] rounded-[8px] p-[10px] flex justify-center text-[#0161A2] text-[16px] font-[400] leading-[22px]' onClick={handleExhibitorClick}><Link to='#exhibitorSection'>Exhibition</Link></div>
             </div>
         </div>
     </div>
