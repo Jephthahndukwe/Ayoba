@@ -35,7 +35,7 @@ const Homepage = () => {
                             </div>
                             <h2 className="text-[#FDB933] xs:text-[17.7px] lg:text-[22.7px] font-[700] mt-[10px]"><span>27th Mar 2024</span> | Lagos Oriental Hotel.</h2>
                             {/* <h2 className="bg-[#FFEFCE] mt-[10px] text-[#0161A2] lg:text-[29px] xs:text-[22px] font-[400] lg:w-[430px] px-[10px]">10AM - 16PM | <span className="font-[700]">27th Mar </span> 2024 </h2> */}
-                           <p className="lg:mt-[8rem] xs:mt-[3rem] relative"><Link to='/' className="bg-[#0161A2] lg:w-[400px] xs:w-[50px] text-[#fff] lg:text-[24px] xs:text-[14px] font-[400] h-[77px] rounded-[8px] lg:p-[20px] xs:p-[12px]">Download Concept Note</Link></p>
+                           <p className="lg:mt-[8rem] xs:mt-[3rem] relative"><Link to='https://linksharing.samsungcloud.com/wv7gVycxruLC' target="_blank" className="bg-[#0161A2] lg:w-[400px] xs:w-[50px] text-[#fff] lg:text-[24px] xs:text-[14px] font-[400] h-[77px] rounded-[8px] lg:p-[20px] xs:p-[12px]">Download Concept Note</Link></p>
                         </div>
                         <div>
                             <img src={woman} className="lg:absolute lg:w-[387px] lg:h-[650px] lg:ms-[-23rem] lg:mt-[-1.7rem] xs:mt-[5rem] " />
