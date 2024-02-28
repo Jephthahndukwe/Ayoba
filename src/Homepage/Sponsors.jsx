@@ -110,7 +110,7 @@ const Sponsors = ({ showSponsorBox, showExhibitorBox, setShowSponsorBox, setShow
                     <Link to='/' onClick={handleClick}><p className='border-[1px] border-solid border-[#494B4A] text-[18px] text-[#494B4A] font-[500] text-center p-[8px] rounded-[4px] mt-5 hover:bg-[#494B4A] hover:text-[#fff] transition duration-300 ease-in-out'>Order now</p></Link>
                 </div>
                 <div className="lg:w-[574px] lg:h-[600px] bg-[#FFF] shadow-xl p-[15px] lg:mt-0 xs:mt-[2rem] hover:shadow-2xl transition duration-300 ease-in-out transform hover:scale-105">
-                    <h2 className="text-[#FCC200] text-[25px] font-[700]">Gold | <span className="text-[29px] font-[700]">₦7.5m</span></h2>
+                    <h2 className="text-[#FCC200] text-[25px] font-[700]">Gold | <span className="text-[29px] font-[700]">₦3.5m</span></h2>
                     <hr className='mt-5'/>
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>3x4 meters booth size</span></h3>
                     <h3 className='flex mt-5 gap-3 text-[18px] font-[500] text-[#262626]'><img src={mark} /> <span>Promotional Reach</span></h3>
